@@ -30,17 +30,6 @@ struct SalesforceTimerApp: App {
             SettingsView(viewModel: viewModel)
         }
 
-        // Log confirmation popup window
-        WindowGroup("Log Confirmation", id: "log-confirmation-window") {
-            if viewModel.showLogConfirmation {
-                LogConfirmationView()
-                    .opacity(viewModel.logConfirmationOpacity)
-                    .onAppear {
-                        // Brengt window naar voren (optioneel)
-                        NSApp.keyWindow?.level = .floating
-                    }
-            }
-        }
         .windowStyle(.plain)
         .windowResizability(.contentSize)
     }
