@@ -1,0 +1,546 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXContainerItemProxy section */
+		A947238A2DFC33E200A8128A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94723732DFC33E000A8128A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A947237A2DFC33E000A8128A;
+			remoteInfo = SalesforceTimer;
+		};
+		A94723942DFC33E200A8128A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A94723732DFC33E000A8128A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A947237A2DFC33E000A8128A;
+			remoteInfo = SalesforceTimer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A947237B2DFC33E000A8128A /* SalesforceTimer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SalesforceTimer.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94723892DFC33E200A8128A /* SalesforceTimerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalesforceTimerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A94723932DFC33E200A8128A /* SalesforceTimerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SalesforceTimerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A947237D2DFC33E000A8128A /* SalesforceTimer */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SalesforceTimer;
+			sourceTree = "<group>";
+		};
+		A947238C2DFC33E200A8128A /* SalesforceTimerTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SalesforceTimerTests;
+			sourceTree = "<group>";
+		};
+		A94723962DFC33E200A8128A /* SalesforceTimerUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = SalesforceTimerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A94723782DFC33E000A8128A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94723862DFC33E200A8128A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94723902DFC33E200A8128A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A94723722DFC33E000A8128A = {
+			isa = PBXGroup;
+			children = (
+				A947237D2DFC33E000A8128A /* SalesforceTimer */,
+				A947238C2DFC33E200A8128A /* SalesforceTimerTests */,
+				A94723962DFC33E200A8128A /* SalesforceTimerUITests */,
+				A947237C2DFC33E000A8128A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A947237C2DFC33E000A8128A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A947237B2DFC33E000A8128A /* SalesforceTimer.app */,
+				A94723892DFC33E200A8128A /* SalesforceTimerTests.xctest */,
+				A94723932DFC33E200A8128A /* SalesforceTimerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A947237A2DFC33E000A8128A /* SalesforceTimer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A947239D2DFC33E200A8128A /* Build configuration list for PBXNativeTarget "SalesforceTimer" */;
+			buildPhases = (
+				A94723772DFC33E000A8128A /* Sources */,
+				A94723782DFC33E000A8128A /* Frameworks */,
+				A94723792DFC33E000A8128A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A947237D2DFC33E000A8128A /* SalesforceTimer */,
+			);
+			name = SalesforceTimer;
+			packageProductDependencies = (
+			);
+			productName = SalesforceTimer;
+			productReference = A947237B2DFC33E000A8128A /* SalesforceTimer.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A94723882DFC33E200A8128A /* SalesforceTimerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94723A02DFC33E200A8128A /* Build configuration list for PBXNativeTarget "SalesforceTimerTests" */;
+			buildPhases = (
+				A94723852DFC33E200A8128A /* Sources */,
+				A94723862DFC33E200A8128A /* Frameworks */,
+				A94723872DFC33E200A8128A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A947238B2DFC33E200A8128A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A947238C2DFC33E200A8128A /* SalesforceTimerTests */,
+			);
+			name = SalesforceTimerTests;
+			packageProductDependencies = (
+			);
+			productName = SalesforceTimerTests;
+			productReference = A94723892DFC33E200A8128A /* SalesforceTimerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A94723922DFC33E200A8128A /* SalesforceTimerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A94723A32DFC33E200A8128A /* Build configuration list for PBXNativeTarget "SalesforceTimerUITests" */;
+			buildPhases = (
+				A947238F2DFC33E200A8128A /* Sources */,
+				A94723902DFC33E200A8128A /* Frameworks */,
+				A94723912DFC33E200A8128A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A94723952DFC33E200A8128A /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A94723962DFC33E200A8128A /* SalesforceTimerUITests */,
+			);
+			name = SalesforceTimerUITests;
+			packageProductDependencies = (
+			);
+			productName = SalesforceTimerUITests;
+			productReference = A94723932DFC33E200A8128A /* SalesforceTimerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A94723732DFC33E000A8128A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1640;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					A947237A2DFC33E000A8128A = {
+						CreatedOnToolsVersion = 16.4;
+					};
+					A94723882DFC33E200A8128A = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A947237A2DFC33E000A8128A;
+					};
+					A94723922DFC33E200A8128A = {
+						CreatedOnToolsVersion = 16.4;
+						TestTargetID = A947237A2DFC33E000A8128A;
+					};
+				};
+			};
+			buildConfigurationList = A94723762DFC33E000A8128A /* Build configuration list for PBXProject "SalesforceTimer" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A94723722DFC33E000A8128A;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A947237C2DFC33E000A8128A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A947237A2DFC33E000A8128A /* SalesforceTimer */,
+				A94723882DFC33E200A8128A /* SalesforceTimerTests */,
+				A94723922DFC33E200A8128A /* SalesforceTimerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A94723792DFC33E000A8128A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94723872DFC33E200A8128A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94723912DFC33E200A8128A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A94723772DFC33E000A8128A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A94723852DFC33E200A8128A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A947238F2DFC33E200A8128A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A947238B2DFC33E200A8128A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A947237A2DFC33E000A8128A /* SalesforceTimer */;
+			targetProxy = A947238A2DFC33E200A8128A /* PBXContainerItemProxy */;
+		};
+		A94723952DFC33E200A8128A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A947237A2DFC33E000A8128A /* SalesforceTimer */;
+			targetProxy = A94723942DFC33E200A8128A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A947239B2DFC33E200A8128A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A947239C2DFC33E200A8128A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A947239E2DFC33E200A8128A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SalesforceTimer/SalesforceTimer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shedapps.SalesforceTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		A947239F2DFC33E200A8128A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = SalesforceTimer/SalesforceTimer.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shedapps.SalesforceTimer;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				REGISTER_APP_GROUPS = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		A94723A12DFC33E200A8128A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shedapps.SalesforceTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalesforceTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SalesforceTimer";
+			};
+			name = Debug;
+		};
+		A94723A22DFC33E200A8128A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 15.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shedapps.SalesforceTimerTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SalesforceTimer.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/SalesforceTimer";
+			};
+			name = Release;
+		};
+		A94723A42DFC33E200A8128A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shedapps.SalesforceTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SalesforceTimer;
+			};
+			name = Debug;
+		};
+		A94723A52DFC33E200A8128A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shedapps.SalesforceTimerUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = SalesforceTimer;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A94723762DFC33E000A8128A /* Build configuration list for PBXProject "SalesforceTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A947239B2DFC33E200A8128A /* Debug */,
+				A947239C2DFC33E200A8128A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A947239D2DFC33E200A8128A /* Build configuration list for PBXNativeTarget "SalesforceTimer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A947239E2DFC33E200A8128A /* Debug */,
+				A947239F2DFC33E200A8128A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94723A02DFC33E200A8128A /* Build configuration list for PBXNativeTarget "SalesforceTimerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94723A12DFC33E200A8128A /* Debug */,
+				A94723A22DFC33E200A8128A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A94723A32DFC33E200A8128A /* Build configuration list for PBXNativeTarget "SalesforceTimerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A94723A42DFC33E200A8128A /* Debug */,
+				A94723A52DFC33E200A8128A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A94723732DFC33E000A8128A /* Project object */;
+}
