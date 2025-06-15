@@ -30,7 +30,7 @@ struct SalesforceTimerApp: App {
             SettingsView(viewModel: viewModel)
         }
 
-        .windowStyle(.plain)
+        .windowStyle(.titleBar)
         .windowResizability(.contentSize)
     }
 }
